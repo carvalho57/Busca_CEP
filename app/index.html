@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Index</title>        
+    </head>
+    <body>
+        <h1>Busca CEP - Endereço</h1>
+        <form method="GET">            
+            <label for="input">CEP</label>
+            <input data-js="input" id="input" type="text">
+            <button data-js="button" type="submit" >Submit</button>
+        </form>        
+        <div>
+            <p data-js="staterequest"></p>
+            <dl data-js="address"></dl>
+        </div>
+        <script src="js/DOM.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
