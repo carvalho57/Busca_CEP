@@ -1,12 +1,6 @@
 (function(doc) {
     'use strict';
-    /*
-    [X] Captura do dado e fazer tratamento
-    [] Montar a requisição
-    [] Adicionar funcoes callback para lidar com a resposta 
-    [] Adicionar os dados no HTML
-    
-    */    
+  
 
     function getInputValue() {
       return new DOM('[data-js="input"]').getValue();
